@@ -4,7 +4,7 @@
  * value
  */
 
-import { ElementType } from 'htmlparser2';
+import { ElementType } from 'htmlparser2-without-node-native';
 
 import TextElementType from './TextElementType';
 import TagElementType from './TagElementType';

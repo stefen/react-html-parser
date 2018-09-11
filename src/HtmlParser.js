@@ -1,4 +1,4 @@
-import htmlparser2 from 'htmlparser2';
+import htmlparser2 from 'htmlparser2-without-node-native';
 import processNodes from './processNodes';
 
 /**
