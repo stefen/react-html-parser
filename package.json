@@ -1,5 +1,5 @@
 {
-  "name": "react-html-parser",
+  "name": "@pandarose/react-html-parser",
   "version": "2.0.2",
   "description": "Parse HTML into React components",
   "main": "lib/index.js",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wrakky/react-html-parser.git"
+    "url": "https://github.com/stefen/react-html-parser.git"
   },
   "keywords": [
     "react",
@@ -71,7 +71,7 @@
     "webpack": "^1.13.0"
   },
   "dependencies": {
-    "htmlparser2": "^3.9.0"
+    "htmlparser2-without-node-native": "^3.9.0"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0-0"
