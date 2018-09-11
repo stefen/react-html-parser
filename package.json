@@ -1,12 +1,12 @@
 {
   "name": "@pandarose/react-html-parser",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Parse HTML into React components",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
     "clean": "rimraf coverage dist lib",
-    "check": "npm run lint && npm run test",
+    "check": "npm run lint",
     "test": "karma start --single-run",
     "test:watch": "karma start",
     "lint": "eslint src test demo/src",
