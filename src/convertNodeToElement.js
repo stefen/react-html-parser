@@ -1,4 +1,5 @@
 import ElementTypes from './elementTypes';
+import React from 'react';
 
 /**
  * Converts a htmlparser2 node to a React element
@@ -9,5 +10,8 @@ import ElementTypes from './elementTypes';
  * @returns {React.Element}
  */
 export default function convertNodeToElement(node, index, transform) {
+  if(React.isValidElement(node)) {
+    return node;
+  }
   return ElementTypes[node.type](node, index, transform);
 }
